@@ -70,9 +70,7 @@ const Home = () => {
                 <li className="relative flex flex-col">
                   <span className="text-lg font-semibold">Basic List taking application</span>
                   <p className="text-sm text-gray-600 dark:text-gray-400">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Excepturi debitis in rerum assumenda unde nam harum et
-                    asperiores aspernatur magnam?
+                    A basic kotlin android application, used for making lists.
                   </p>
                 </li>
               </div>
@@ -81,9 +79,7 @@ const Home = () => {
                 <li className="relative flex flex-col">
                   <span className="text-lg font-semibold">Basic Unit conversion application</span>
                   <p className="text-sm text-gray-600 dark:text-gray-400">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Excepturi debitis in rerum assumenda unde nam harum et
-                    asperiores aspernatur magnam?
+                    A basic kotlin android application, used for metric unit conversions.
                   </p>
                 </li>
               </div>
