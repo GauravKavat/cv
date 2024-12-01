@@ -50,7 +50,9 @@ const Home = () => {
                 <li className="relative flex flex-col">
                   <span className="text-lg font-semibold">Customer Churn Prediction Model</span>
                   <p className="text-sm text-gray-600 dark:text-gray-400">
-                    This project aims to predict customer churn for a bank using machine learning techniques, with a focus on lazy predict for model selection and evaluation. Customer churn, also known as customer attrition, refers to the phenomenon where customers cease their relationship with a company or service provider.
+                    This project aims to predict customer churn for a bank using machine learning techniques,
+                    with a focus on lazy predict for model selection and evaluation. Customer churn,
+                    also known as customer attrition.
                   </p>
                 </li>
               </div>
@@ -59,7 +61,9 @@ const Home = () => {
                 <li className="relative flex flex-col">
                   <span className="text-lg font-semibold">Notion Clone</span>
                   <p className="text-sm text-gray-600 dark:text-gray-400">
-                    A sleek, minimalist web app inspired by Notion, built using Next.js, TypeScript, JavaScript, and CSS. It offers a versatile workspace for note-taking and project management, with a modern, responsive design.
+                    A sleek, minimalist web app inspired by Notion, 
+                    built using Next.js, TypeScript, JavaScript, and CSS. 
+                    It offers a versatile workspace for note-taking and project management, with a modern, responsive design.
                   </p>
                 </li>
               </div>
