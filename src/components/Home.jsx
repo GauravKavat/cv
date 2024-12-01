@@ -22,9 +22,7 @@ const Home = () => {
                   Duration of Work
                 </span>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Autem sequi consequatur ducimus, provident dicta dolorem
-                  reprehenderit laborum dignissimos recusandae impedit!
+                  Currently looking for work — hope you're the first to realize I’m the perfect fit!
                 </p>
               </li>
             </ul>
@@ -37,9 +35,7 @@ const Home = () => {
                   Duration of Work
                 </span>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi debitis in rerum assumenda unde nam harum et
-                  asperiores aspernatur magnam?
+                  Currently looking for work — hope you're the first to realize I’m the perfect fit!
                 </p>
               </li>
             </ul>
@@ -52,7 +48,7 @@ const Home = () => {
             <ul>
               <div className="flex flex-col items-start justify-start gap-5 border-b pr-4 dark:border-gray-700 py-[25px]">
                 <li className="relative flex flex-col">
-                  <span className="text-lg font-semibold">Project 1</span>
+                  <span className="text-lg font-semibold">Customer Churn Prediction Model</span>
                   <p className="text-sm text-gray-600 dark:text-gray-400">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Excepturi debitis in rerum assumenda unde nam harum et
@@ -63,7 +59,7 @@ const Home = () => {
 
               <div className="flex flex-col items-start justify-start gap-5 pr-4 py-[25px]">
                 <li className="relative flex flex-col">
-                  <span className="text-lg font-semibold">Project 2</span>
+                  <span className="text-lg font-semibold">Notion Clone</span>
                   <p className="text-sm text-gray-600 dark:text-gray-400">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Excepturi debitis in rerum assumenda unde nam harum et
@@ -76,7 +72,7 @@ const Home = () => {
             <ul>
               <div className="flex flex-col items-start justify-start gap-5 border-b pr-4 dark:border-gray-700 py-[25px]">
                 <li className="relative flex flex-col">
-                  <span className="text-lg font-semibold">Project 3</span>
+                  <span className="text-lg font-semibold">Basic List taking application</span>
                   <p className="text-sm text-gray-600 dark:text-gray-400">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Excepturi debitis in rerum assumenda unde nam harum et
@@ -87,7 +83,7 @@ const Home = () => {
 
               <div className="flex flex-col items-start justify-start gap-5 pr-4 py-[25px]">
                 <li className="relative flex flex-col">
-                  <span className="text-lg font-semibold">Project 4</span>
+                  <span className="text-lg font-semibold">Basic Unit conversion application</span>
                   <p className="text-sm text-gray-600 dark:text-gray-400">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Excepturi debitis in rerum assumenda unde nam harum et
