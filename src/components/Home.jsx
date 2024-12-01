@@ -50,9 +50,7 @@ const Home = () => {
                 <li className="relative flex flex-col">
                   <span className="text-lg font-semibold">Customer Churn Prediction Model</span>
                   <p className="text-sm text-gray-600 dark:text-gray-400">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Excepturi debitis in rerum assumenda unde nam harum et
-                    asperiores aspernatur magnam?
+                    This project aims to predict customer churn for a bank using machine learning techniques, with a focus on lazy predict for model selection and evaluation. Customer churn, also known as customer attrition, refers to the phenomenon where customers cease their relationship with a company or service provider.
                   </p>
                 </li>
               </div>
