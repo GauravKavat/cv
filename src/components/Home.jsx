@@ -7,25 +7,7 @@ const Home = () => {
         <div className="space-y-5">
           <h1 className="text-2xl font-bold md:text-4xl">About</h1>
           <p className="text-sm text-gray-600 dark:text-gray-300 md:text-base text-justify">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque,
-            voluptatem. In excepturi animi inventore vero soluta officia ipsa,
-            voluptatibus illum, sint placeat alias error temporibus. Ea,
-            sapiente! Sequi iusto corporis necessitatibus dolores cumque, quae
-            sapiente possimus, sed, similique quos eos? Iure non dolorum
-            cupiditate unde porro accusantium, alias doloremque vel neque id
-            placeat nostrum. Reprehenderit facilis adipisci facere nostrum
-            architecto rem, impedit accusamus odit dolorem quasi. Itaque sint
-            nihil nisi? Consequatur nisi, perspiciatis ad laboriosam blanditiis
-            nobis, commodi doloremque iure rerum magnam delectus ratione?
-            Tenetur maxime neque numquam minus voluptatum, quisquam sequi ea
-            necessitatibus aspernatur fugit minima eum ad? Magni beatae,
-            adipisci numquam soluta similique molestias? Minima, repellat!
-            Corrupti reiciendis asperiores eveniet eligendi tempora numquam
-            quaerat optio, minima distinctio. At commodi placeat facere ipsam
-            quod. Tempora pariatur ut vero ipsum voluptatem quaerat laudantium
-            exercitationem nostrum, assumenda harum dolore praesentium provident
-            autem impedit, quia perferendis hic quibusdam nisi maxime nesciunt
-            rerum.
+            I am an aspiring software engineer who excels in startup environments, tackling challenging problems and driving rapid growth. I take full ownership of my work, ensuring data persistence and scalable workflows through independent solutions. With a self-motivated, detail-oriented mindset and a commitment to continuous learning, I have quickly mastered technologies like React, Next.js, Kotlin, Python, and Unreal Engine.
           </p>
         </div>
 
