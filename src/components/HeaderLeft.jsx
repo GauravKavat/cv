@@ -115,18 +115,7 @@ const HeaderLeft = ({ darkMode, toggleDarkMode }) => {
               <span className="rounded-xl bg-[#202124] text-white pl-2 pr-2 pt-1 pb-1 text-center dark:bg-[#EBEAE6] dark:text-black">
                 Next.js
               </span>
-              <span className="rounded-xl bg-[#202124] text-white pl-2 pr-2 pt-1 pb-1 text-center dark:bg-[#EBEAE6] dark:text-black">
-                Skill 6
-              </span>
             </div>
-          </div>
-        </div>
-
-        <div className="flex flex-col items-start justify-start gap-5 p-4">
-          <h1 className="text-base font-semibold md:text-2xl">Language</h1>
-          <div className="flex flex-wrap gap-x-28">
-            <span>English</span>
-            <span>Hindi</span>
           </div>
         </div>
       </div>
