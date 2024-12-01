@@ -92,22 +92,18 @@ const Home = () => {
             <ul>
               <div className="flex flex-col items-start justify-start gap-5 border-b pr-4 dark:border-gray-700 py-[25px]">
                 <li className="relative flex flex-col">
-                  <span className="text-lg font-semibold">Project 5</span>
+                  <span className="text-lg font-semibold">Classified</span>
                   <p className="text-sm text-gray-600 dark:text-gray-400">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Excepturi debitis in rerum assumenda unde nam harum et
-                    asperiores aspernatur magnam?
+                    Work Under Progress
                   </p>
                 </li>
               </div>
 
               <div className="flex flex-col items-start justify-start gap-5 pr-4 py-[25px]">
                 <li className="relative flex flex-col">
-                  <span className="text-lg font-semibold">Project 6</span>
+                  <span className="text-lg font-semibold">Classified</span>
                   <p className="text-sm text-gray-600 dark:text-gray-400">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Excepturi debitis in rerum assumenda unde nam harum et
-                    asperiores aspernatur magnam?
+                    Work Under Progress
                   </p>
                 </li>
               </div>
