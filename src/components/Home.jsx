@@ -6,8 +6,14 @@ const Home = () => {
       <main className="flex flex-col gap-10 p-5 md:mx-10 md:py-14">
         <div className="space-y-5">
           <h1 className="text-2xl font-bold md:text-4xl">About</h1>
-          <p className="text-sm text-gray-600 dark:text-gray-300 md:text-base text-justify">
-            I am an aspiring software engineer who excels in startup environments, tackling challenging problems and driving rapid growth. I take full ownership of my work, ensuring data persistence and scalable workflows through independent solutions. With a self-motivated, detail-oriented mindset and a commitment to continuous learning, I have quickly mastered technologies like React, Next.js, Kotlin, Python, and Unreal Engine.
+          <p className="pr-[250px] text-sm text-gray-600 dark:text-gray-300 md:text-base text-justify">
+            I am an aspiring software engineer who excels in startup
+            environments, tackling challenging problems and driving rapid
+            growth. I take full ownership of my work, ensuring data persistence
+            and scalable workflows through independent solutions. With a
+            self-motivated, detail-oriented mindset and a commitment to
+            continuous learning, I have quickly mastered technologies like
+            React, Next.js, Kotlin, Python, and Unreal Engine.
           </p>
         </div>
 
@@ -22,7 +28,8 @@ const Home = () => {
                   Duration of Work
                 </span>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
-                  Currently looking for work — hope you're the first to realize I’m the perfect fit!
+                  Currently looking for work — hope you're the first to realize
+                  I’m the perfect fit!
                 </p>
               </li>
             </ul>
@@ -35,7 +42,8 @@ const Home = () => {
                   Duration of Work
                 </span>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
-                  Currently looking for work — hope you're the first to realize I’m the perfect fit!
+                  Currently looking for work — hope you're the first to realize
+                  I’m the perfect fit!
                 </p>
               </li>
             </ul>
@@ -45,34 +53,57 @@ const Home = () => {
         <div className="space-y-10">
           <h1 className="text-2xl font-bold md:text-4xl">Projects</h1>
           <div className="flex flex-col lg:flex-row lg:gap-20">
-            <ul>
+            <ul className="w-[25vw]">
               <div className="flex flex-col items-start justify-start gap-5 border-b pr-4 dark:border-gray-700 py-[25px]">
                 <li className="relative flex flex-col">
-                  <span className="text-lg font-semibold">Customer Churn Prediction Model</span>
+                  <a
+                    href="https://github.com/GauravKavat/customer-churn-prediction"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-lg font-semibold">
+                    Customer Churn Prediction Model
+                  </a>
+                  <br />
                   <p className="text-sm text-gray-600 dark:text-gray-400">
-                    This project aims to predict customer churn for a bank using machine learning techniques,
-                    with a focus on lazy predict for model selection and evaluation. Customer churn,
-                    also known as customer attrition.
+                    This project aims to predict customer churn for a bank using
+                    machine learning techniques, with a focus on lazy predict
+                    for model selection and evaluation. Customer churn, also
+                    known as customer attrition.
                   </p>
                 </li>
               </div>
 
               <div className="flex flex-col items-start justify-start gap-5 pr-4 py-[25px]">
                 <li className="relative flex flex-col">
-                  <span className="text-lg font-semibold">Notion Clone</span>
+                  <a
+                    href="https://github.com/GauravKavat/notion"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-lg font-semibold">
+                    Notion Clone
+                  </a>
+                  <br />
                   <p className="text-sm text-gray-600 dark:text-gray-400">
-                    A sleek, minimalist web app inspired by Notion, 
-                    built using Next.js, TypeScript, JavaScript, and CSS. 
-                    It offers a versatile workspace for note-taking and project management, with a modern, responsive design.
+                    A sleek, minimalist web app inspired by Notion, built using
+                    Next.js, TypeScript, JavaScript, and CSS. It offers a
+                    versatile workspace for note-taking and project management,
+                    with a modern, responsive design.
                   </p>
                 </li>
               </div>
             </ul>
 
-            <ul>
+            <ul className="w-[25vw]">
               <div className="flex flex-col items-start justify-start gap-5 border-b pr-4 dark:border-gray-700 py-[25px]">
                 <li className="relative flex flex-col">
-                  <span className="text-lg font-semibold">Basic List taking application</span>
+                  <a
+                    href="https://github.com/GauravKavat/List-App"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-lg font-semibold">
+                    Basic List taking application
+                  </a>
+                  <br />
                   <p className="text-sm text-gray-600 dark:text-gray-400">
                     A basic kotlin android application, used for making lists.
                   </p>
@@ -81,18 +112,33 @@ const Home = () => {
 
               <div className="flex flex-col items-start justify-start gap-5 pr-4 py-[25px]">
                 <li className="relative flex flex-col">
-                  <span className="text-lg font-semibold">Basic Unit conversion application</span>
+                  <a
+                    href="https://github.com/GauravKavat/UnitConverter"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-lg font-semibold">
+                    Basic Unit conversion application
+                  </a>
+                  <br />
                   <p className="text-sm text-gray-600 dark:text-gray-400">
-                    A basic kotlin android application, used for metric unit conversions.
+                    A basic kotlin android application, used for metric unit
+                    conversions.
                   </p>
                 </li>
               </div>
             </ul>
 
-            <ul>
+            <ul className="w-[25vw]">
               <div className="flex flex-col items-start justify-start gap-5 border-b pr-4 dark:border-gray-700 py-[25px]">
                 <li className="relative flex flex-col">
-                  <span className="text-lg font-semibold">Classified</span>
+                  <a
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-lg font-semibold">
+                    Classified
+                  </a>
+                  <br />
                   <p className="text-sm text-gray-600 dark:text-gray-400">
                     Work Under Progress
                   </p>
@@ -101,7 +147,14 @@ const Home = () => {
 
               <div className="flex flex-col items-start justify-start gap-5 pr-4 py-[25px]">
                 <li className="relative flex flex-col">
-                  <span className="text-lg font-semibold">Classified</span>
+                  <a
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-lg font-semibold">
+                    Classified
+                  </a>
+                  <br />
                   <p className="text-sm text-gray-600 dark:text-gray-400">
                     Work Under Progress
                   </p>
