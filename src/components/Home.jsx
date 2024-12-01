@@ -61,9 +61,7 @@ const Home = () => {
                 <li className="relative flex flex-col">
                   <span className="text-lg font-semibold">Notion Clone</span>
                   <p className="text-sm text-gray-600 dark:text-gray-400">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Excepturi debitis in rerum assumenda unde nam harum et
-                    asperiores aspernatur magnam?
+                    A sleek, minimalist web app inspired by Notion, built using Next.js, TypeScript, JavaScript, and CSS. It offers a versatile workspace for note-taking and project management, with a modern, responsive design.
                   </p>
                 </li>
               </div>
