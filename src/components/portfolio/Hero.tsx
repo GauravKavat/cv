@@ -13,7 +13,7 @@ export const Hero = () => {
     if (displayText.length < currentText.length) {
       timeout = setTimeout(() => {
         setDisplayText(currentText.slice(0, displayText.length + 1));
-      }, 100);
+      }, 150);
     } else {
       timeout = setTimeout(() => {
         setDisplayText('');
@@ -25,17 +25,17 @@ export const Hero = () => {
   }, [displayText, currentTextIndex, texts]);
 
   return (
-    <div className="relative z-10 text-center max-w-4xl mx-auto px-8">
+    <div className="relative z-10 text-center max-w-4xl mx-auto px-4 sm:px-8">
       {/* Main Heading */}
-      <div className="space-y-6 animate-slide-up">
-        <h1 className="text-6xl md:text-8xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-          Alex Smith
+      <div className="space-y-6 animate-fade-in">
+        <h1 className="text-5xl md:text-8xl font-bold bg-gradient-primary bg-clip-text text-transparent">
+          Gaurav Meena
         </h1>
         
         <div className="h-16 flex items-center justify-center">
-          <h2 className="text-2xl md:text-4xl font-light text-foreground">
+          <h2 className="text-xl md:text-4xl font-light text-foreground">
             I'm a{' '}
-            <span className="inline-block min-w-[200px] text-left">
+            <span className="inline-block min-w-[150px] md:min-w-[200px] text-left">
               <span className="bg-gradient-accent bg-clip-text text-transparent font-semibold">
                 {displayText}
                 <span className="animate-pulse">|</span>
@@ -44,18 +44,18 @@ export const Hero = () => {
           </h2>
         </div>
         
-        <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+        <p className="text-base md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
           Crafting digital experiences with modern technologies. 
           Passionate about clean code, beautiful design, and innovative solutions.
         </p>
       </div>
       
       {/* Call to Action */}
-      <div className="mt-12 flex flex-col sm:flex-row gap-4 justify-center items-center animate-slide-up" 
+      <div className="mt-12 flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in" 
            style={{ animationDelay: '0.3s' }}>
         <Button 
           size="lg" 
-          className="group bg-gradient-primary hover:shadow-glow transition-all duration-300 text-lg px-8 py-6 rounded-full"
+          className="group bg-gradient-primary hover:shadow-glow transition-all duration-300 text-lg px-8 py-6 rounded-full w-full sm:w-auto"
         >
           View My Work
           <span className="ml-2 group-hover:translate-x-1 transition-transform duration-300">→</span>
@@ -64,7 +64,7 @@ export const Hero = () => {
         <Button 
           variant="outline" 
           size="lg"
-          className="border-primary/20 text-foreground hover:bg-primary/10 hover:border-primary/40 transition-all duration-300 text-lg px-8 py-6 rounded-full"
+          className="border-primary/20 text-foreground hover:bg-primary/10 hover:border-primary/40 transition-all duration-300 text-lg px-8 py-6 rounded-full w-full sm:w-auto"
         >
           Download CV
         </Button>
